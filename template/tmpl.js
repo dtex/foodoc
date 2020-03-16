@@ -245,11 +245,8 @@ Handlebars.registerPartial("site/layout", this["tmpl"]["site/layout"] = Handleba
 },"68":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "\r\n		<script>\r\n			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n			ga('create', '"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.analytics : stack1)) != null ? stack1.ua : stack1), depth0))
-    + "', '"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.analytics : stack1)) != null ? stack1.domain : stack1), depth0))
-    + "');\r\n			ga('send', 'pageview');\r\n		</script>\r\n	";
+  return "\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id="+ alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.analytics : stack1)) != null ? stack1.ua : stack1), depth0)) + "\"></script>\r\n<script>\r\nwindow.dataLayer = window.dataLayer || [];\r\nfunction gtag(){dataLayer.push(arguments);}\r\ngtag('js', new Date());gtag('config', '" + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.analytics : stack1)) != null ? stack1.ua : stack1), depth0)) + "');\r\n</script>"
+    
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing;
 
