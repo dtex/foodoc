@@ -272,7 +272,7 @@ Handlebars.registerPartial("site/layout", this["tmpl"]["site/layout"] = Handleba
     + "	"
     + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.analytics : stack1),{"name":"if","hash":{},"fn":container.program(66, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\r\n"
-    + "<a href=\"https://github.com/dtex/j5e\"><img width=\"149\" height=\"149\" style=\"z-index:1000;position:absolute;top: 50px;right: 0;\" src=\""+stack1.systemLogo+"https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149\" class=\"attachment-full size-full\" alt=\"Fork me on GitHub\" data-recalc-dims=\"1\"></a>"
+    + "<a href=\"https://github.com/dtex/j5e\"><img width=\"149\" height=\"149\" style=\"z-index:1000;position:absolute;top: 50px;right: 0;\" src=\""+stack1.systemLogo+"https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149" class=\"attachment-full size-full\" alt=\"Fork me on GitHub\" data-recalc-dims=\"1\"></a>"
     + "</body>\r\n</html>\r\n";
 },"usePartial":true,"useData":true,"useDepths":true}));
 
